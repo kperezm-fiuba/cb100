@@ -32,4 +32,6 @@
 9. ### ¿Por qué el orden de los bloques catch importa?
     1. Porque si ponemos los catch de menos a más especificos corremos el riesgo de que no se utilizen correctamente los
     catch de más abajo en el codigo
-1. ### 
+1. ### ¿Qué ventaja aporta escribir tests con JUnit en lugar de probar “a mano” con System.out.println?
+   1. Los test en Junit son automaticos y repetibles. Además de darnos la eficiencia de poder correr todos los test con
+   un solo comando. A comparacion deusar el *System.out,println* donde hemos de comparar y verificar a mano los tests.
