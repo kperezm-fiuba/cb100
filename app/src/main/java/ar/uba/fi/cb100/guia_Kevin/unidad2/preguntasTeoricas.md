@@ -10,8 +10,9 @@ Dá un ejemplo de cada uno.
 
 2. ¿Qué copia una asignación entre variables primitivas? ¿Y entre variables de objeto?
    - La 1era copia el valor
-   - La 2da la referencia
-*Idea clave*
+   - La 2da la referencia 
+
+   *Idea clave*
    - La asignación en Java copia lo que hay en la caja de la variable: si la caja tiene un valor,
      copia el valor; si tiene una referencia (una flecha), copia la flecha. Nunca copia el objeto
      apuntado.
@@ -51,7 +52,7 @@ Dá un ejemplo de cada uno.
    parámetro? ¿Por qué?
    - Depende. Si solo modifico el objeto recibido por parametro, si. 
    - Si reasigna el parametro y el metodo no devuelve la referencia creada al crear ese nuevo objeto, no se ve de afuera
-   - Porque cuando se reasigna el parametro hemos de corroborar que la referencia sobrebiba a la llamada
+   - Porque cuando se reasigna el parametro hemos de corroborar que la referencia sobreviva a la llamada
    del metodo. De otra forma el GC lo va a eliminar en cuanto se termine el llamado del metodo.
 
     *Idea clave*
